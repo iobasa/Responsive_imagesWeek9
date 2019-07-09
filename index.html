@@ -4,9 +4,25 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Document</title>
+
+  <link rel="stylesheet" href="css/reset.css">
+	<link rel="stylesheet" href="css/main.css">
+
+  <title>Responsive Images</title>
 </head>
 <body>
+  <main>
+    <div>
+      <picture>
+        <source srcset="images/hubble-mid_web.jpg" media="(min-width: 660px)">
+          <source srcset="images/hubble-large_web.jpg" media="(min-width: 1000px)">
+        <!-- always include a default image for browsers that don't support picture tag, and also if a media query doesn't match -->
+        <img src="images/hubble-small_web.jpg" alt="hubble_image">
+      </picture>
+    </div>
+
+
+  </main>
 
 </body>
 </html>
