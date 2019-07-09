@@ -4,7 +4,7 @@ Week 9 - using responsive images
 
 ## Description
 
-Responsive Images in use
+Designing and direction a web app with images that load based on media queries. To save your users data and avoid angry emails or downvotes.
 
 ## Getting Started
 
